@@ -41,3 +41,4 @@ class Test:
         assert self.gui.game('scissor', 'rock') == "Computer is scissor. You are rock. You win."
         assert self.gui.game('scissor', 'paper') == "Computer is scissor. You are paper. You lose."
         assert self.gui.game('scissor', 'scissor') == "Computer is scissor. You are scissor. You tie."
+        
